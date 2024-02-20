@@ -1,0 +1,29 @@
+{
+  "name": "movie-finder",
+  "version": "1.0.0",
+  "description": "test project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "../marin-site/node_modules/.bin/gulp",
+    "prettier": "echo \" Prettier started \"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladpovelitsa/hillel-movie-finder.git"
+  },
+  "author": "VladP",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vladpovelitsa/hillel-movie-finder/issues"
+  },
+  "homepage": "https://github.com/vladpovelitsa/hillel-movie-finder#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "sass": "^1.70.0"
+  }
+}

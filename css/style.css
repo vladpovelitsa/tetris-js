@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.wrap {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.field {
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.cell {
+  background: #231414;
+  border: 1px solid #ccc;
+  aspect-ratio: 1/1;
+}
+.cell--1 {
+  background: blue;
+}
+.cell--2 {
+  background: red;
+}
+.cell--3 {
+  background: green;
+}
+.cell--4 {
+  background: yellow;
+}
+.cell--5 {
+  background: orange;
+}
+.cell--6 {
+  background: violet;
+}
+
+/*# sourceMappingURL=style.css.map */

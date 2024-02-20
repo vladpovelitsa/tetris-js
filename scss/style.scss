@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.wrap {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.field {
+  max-width: 400px;
+  margin: 20px auto;
+
+}
+.row {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.cell {
+  background: #231414;
+  border: 1px solid #ccc;
+  aspect-ratio: 1 / 1;
+
+  &--1 {
+    background: blue;
+  }
+  &--2 {
+    background: red;
+  }
+  &--3 {
+    background: green;
+  }
+  &--4 {
+    background: yellow;
+  }
+  &--5 {
+    background: orange;
+  }
+  &--6 {
+    background: violet;
+  }
+}
+
