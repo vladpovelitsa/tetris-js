@@ -19,4 +19,7 @@ document.addEventListener('keydown', function (){
     if(+event.keyCode === 38) {
         tetris.rotate()
     }
+    if(+event.keyCode === 32) {
+        tetris.togglePause()
+    }
 })
